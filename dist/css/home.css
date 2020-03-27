@@ -1,0 +1,1187 @@
+/*!
+ * Nuotron-Aram v0.0.1
+ * Aram Website.
+ * (c) 2019 Nuotron-J
+ *  License
+ * 
+ */
+
+@font-face {
+  font-family: 'Swissra';
+  src: url("../fonts/Swissra-Light.eot");
+  src: url("../fonts/Swissra-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Swissra-Light.woff2") format("woff2"), url("../fonts/Swissra-Light.woff") format("woff"), url("../fonts/Swissra-Light.ttf") format("truetype"), url("../fonts/Swissra-Light.svg#Swissra-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Swissra Med';
+  src: url("../fonts/Swissra-Medium.eot");
+  src: url("../fonts/Swissra-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Swissra-Medium.woff2") format("woff2"), url("../fonts/Swissra-Medium.woff") format("woff"), url("../fonts/Swissra-Medium.ttf") format("truetype"), url("../fonts/Swissra-Medium.svg#Swissra-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Swissra Normal';
+  src: url("../fonts/Swissra-Normal.eot");
+  src: url("../fonts/Swissra-Normal.eot?#iefix") format("embedded-opentype"), url("../fonts/Swissra-Normal.woff2") format("woff2"), url("../fonts/Swissra-Normal.woff") format("woff"), url("../fonts/Swissra-Normal.ttf") format("truetype"), url("../fonts/Swissra-Normal.svg#Swissra-Normal") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Typography */
+/* line 2, src/sass/common/_classes.scss */
+.bg-mainColor1 {
+  background-color: #70dae7 !important;
+}
+
+/* line 6, src/sass/common/_classes.scss */
+.ol-mainColor1 {
+  background-color: rgba(112, 218, 231, 0.5) !important;
+}
+
+/* line 10, src/sass/common/_classes.scss */
+.mainColor1 {
+  color: #70dae7 !important;
+}
+
+/* line 14, src/sass/common/_classes.scss */
+.bg-mainColor2 {
+  background-color: #8982e1 !important;
+}
+
+/* line 18, src/sass/common/_classes.scss */
+.ol-mainColor2 {
+  background-color: rgba(137, 130, 225, 0.5) !important;
+}
+
+/* line 22, src/sass/common/_classes.scss */
+.mainColor2 {
+  color: #8982e1 !important;
+}
+
+/* line 26, src/sass/common/_classes.scss */
+.bg-mainColor3 {
+  background-color: #eeeeee !important;
+}
+
+/* line 30, src/sass/common/_classes.scss */
+.ol-mainColor3 {
+  background-color: rgba(238, 238, 238, 0.5) !important;
+}
+
+/* line 34, src/sass/common/_classes.scss */
+.mainColor3 {
+  color: #eeeeee !important;
+}
+
+/* line 38, src/sass/common/_classes.scss */
+.bg-mainColor4 {
+  background-color: #f97f7b !important;
+}
+
+/* line 42, src/sass/common/_classes.scss */
+.ol-mainColor4 {
+  background-color: rgba(249, 127, 123, 0.5) !important;
+}
+
+/* line 46, src/sass/common/_classes.scss */
+.mainColor4 {
+  color: #f97f7b !important;
+}
+
+/* line 51, src/sass/common/_classes.scss */
+.bg-mainColor5 {
+  background-color: #a0acff !important;
+}
+
+/* line 55, src/sass/common/_classes.scss */
+.ol-mainColor5 {
+  background-color: rgba(160, 172, 255, 0.5) !important;
+}
+
+/* line 59, src/sass/common/_classes.scss */
+.mainColor5 {
+  color: #a0acff !important;
+}
+
+/* line 64, src/sass/common/_classes.scss */
+.bg-mainColor6 {
+  background-color: #9FEBD0 !important;
+}
+
+/* line 68, src/sass/common/_classes.scss */
+.ol-mainColor6 {
+  background-color: rgba(159, 235, 208, 0.5) !important;
+}
+
+/* line 72, src/sass/common/_classes.scss */
+.mainColor5 {
+  color: #9FEBD0 !important;
+}
+
+/* line 77, src/sass/common/_classes.scss */
+.bg-dark {
+  background-color: #595959 !important;
+}
+
+/* line 81, src/sass/common/_classes.scss */
+.ol-dark {
+  background-color: rgba(89, 89, 89, 0.5) !important;
+}
+
+/* line 85, src/sass/common/_classes.scss */
+.dark {
+  color: #595959 !important;
+}
+
+/* line 89, src/sass/common/_classes.scss */
+.border-t-blue {
+  border-top: 5px solid #70dae7;
+}
+
+/* line 93, src/sass/common/_classes.scss */
+.border-t-pink {
+  border-top: 5px solid #f97f7b;
+}
+
+/* line 97, src/sass/common/_classes.scss */
+.border-t-purple {
+  border-top: 5px solid #70dae7;
+}
+
+/* line 101, src/sass/common/_classes.scss */
+.center-class {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%) rotate(-20deg) !important;
+          transform: translate(-50%, -50%) rotate(-20deg) !important;
+  color: #fff;
+}
+
+/* line 109, src/sass/common/_classes.scss */
+.font-s-20 {
+  font-size: 20px;
+}
+
+/* line 113, src/sass/common/_classes.scss */
+.font-s-16 {
+  font-size: 16px;
+}
+
+/* line 117, src/sass/common/_classes.scss */
+.c-pointer {
+  cursor: pointer;
+}
+
+/* line 2, src/sass/components/_square.scss */
+.square {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px 70px 10px 70px;
+  position: relative;
+  display: inline-block;
+  -webkit-transform: rotate(20deg);
+          transform: rotate(20deg);
+}
+
+/* line 9, src/sass/components/_square.scss */
+.square:before {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  content: "";
+  width: 100%;
+  height: 100%;
+  -webkit-transform: rotate(-20deg);
+          transform: rotate(-20deg);
+  border-radius: 10px 70px 10px 70px;
+  opacity: 0.5;
+  -webkit-transform-origin: bottom right;
+          transform-origin: bottom right;
+  background-color: inherit;
+}
+
+/* line 22, src/sass/components/_square.scss */
+.square .inside_squer_word {
+  color: #fff;
+  -webkit-transform: rotate(-20deg);
+          transform: rotate(-20deg);
+}
+
+/* line 2, src/sass/components/_footer.scss */
+.footer {
+  color: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* line 6, src/sass/components/_footer.scss */
+.footer .center_section_in_footer {
+  padding-top: 70px;
+}
+
+/* line 9, src/sass/components/_footer.scss */
+.footer .sotual_media {
+  margin-top: 15%;
+}
+
+/* line 11, src/sass/components/_footer.scss */
+.footer .sotual_media i {
+  width: 40px;
+  height: 40px;
+  margin-left: 15px;
+  line-height: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+/* line 22, src/sass/components/_footer.scss */
+.fixed-action-btn {
+  right: initial !important;
+  left: 23px !important;
+}
+
+/* line 1, src/sass/components/_navigation.scss */
+header {
+  min-height: 600px;
+}
+
+/* line 3, src/sass/components/_navigation.scss */
+header nav {
+  position: fixed;
+  background-color: initial;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  top: 6%;
+  z-index: 999;
+}
+
+/* line 9, src/sass/components/_navigation.scss */
+header nav .navbar_ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 11, src/sass/components/_navigation.scss */
+header nav .navbar_ul li {
+  margin-right: 20px;
+}
+
+/* line 13, src/sass/components/_navigation.scss */
+header nav .navbar_ul li:hover {
+  border-bottom: 4px solid #f97f7b;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+/* line 17, src/sass/components/_navigation.scss */
+header nav .navbar_ul li a {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  background-color: initial;
+}
+
+/* line 26, src/sass/components/_navigation.scss */
+header nav .brand-logo img {
+  width: 60px;
+  position: absolute;
+  right: 147px;
+}
+
+@media (max-width: 500px) {
+  /* line 37, src/sass/components/_navigation.scss */
+  header .overlight {
+    background-color: rgba(83, 119, 126, 0.5) !important;
+  }
+  /* line 40, src/sass/components/_navigation.scss */
+  header .header_in_mobile_page_instad_of_square {
+    padding-top: 60%;
+  }
+  /* line 42, src/sass/components/_navigation.scss */
+  header .header_in_mobile_page_instad_of_square h4 {
+    color: #fff;
+  }
+  /* line 45, src/sass/components/_navigation.scss */
+  header .header_in_mobile_page_instad_of_square button {
+    margin-top: 44%;
+    width: 85%;
+    height: 45px;
+  }
+  /* line 49, src/sass/components/_navigation.scss */
+  header .header_in_mobile_page_instad_of_square button p {
+    margin-top: 4px;
+  }
+  /* line 53, src/sass/components/_navigation.scss */
+  header .header_in_mobile_page_instad_of_square .square {
+    width: 35px;
+    height: 35px;
+    border-radius: 2px 8px 2px 8px;
+    float: right;
+    margin-top: 4px;
+  }
+  /* line 59, src/sass/components/_navigation.scss */
+  header .header_in_mobile_page_instad_of_square .square:before {
+    background-color: #70dae7;
+    width: 35px;
+    height: 35px;
+    border-radius: 2px 8px 2px 8px;
+    -webkit-animation-name: rotate_before;
+            animation-name: rotate_before;
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-transform-origin: bottom right;
+            transform-origin: bottom right;
+  }
+  @-webkit-keyframes rotate_before {
+    0% {
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(-20deg);
+              transform: rotate(-20deg);
+    }
+  }
+  @keyframes rotate_before {
+    0% {
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(-20deg);
+              transform: rotate(-20deg);
+    }
+  }
+}
+
+/* line 1, src/sass/components/_loading.scss */
+html,
+body {
+  overflow: hidden;
+}
+
+/* line 5, src/sass/components/_loading.scss */
+.loading {
+  background: #333;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  font-size: 24px;
+  z-index: 99999;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+/* line 18, src/sass/components/_loading.scss */
+.loading .square {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) rotate(20deg);
+          transform: translate(-50%, -50%) rotate(20deg);
+  background: #70dae7;
+  -webkit-animation: color infinite 5s;
+          animation: color infinite 5s;
+  width: 250px;
+  height: 250px;
+}
+
+/* line 29, src/sass/components/_loading.scss */
+.loading .square::before {
+  -webkit-animation: butterFly 1.5s infinite, color infinite 5s;
+          animation: butterFly 1.5s infinite, color infinite 5s;
+  background: #70dae7;
+  width: 250px;
+  height: 250px;
+}
+
+/* line 35, src/sass/components/_loading.scss */
+.loading span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+@-webkit-keyframes butterFly {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(-20deg);
+            transform: rotate(-20deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+@keyframes butterFly {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(-20deg);
+            transform: rotate(-20deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+@-webkit-keyframes color {
+  0% {
+    background: #70dae7;
+  }
+  20% {
+    background: #8982e1;
+  }
+  40% {
+    background: #70dae7;
+  }
+  60% {
+    background: #f97f7b;
+  }
+  80% {
+    background: #a0acff;
+  }
+  100% {
+    background: #70dae7;
+  }
+}
+
+@keyframes color {
+  0% {
+    background: #70dae7;
+  }
+  20% {
+    background: #8982e1;
+  }
+  40% {
+    background: #70dae7;
+  }
+  60% {
+    background: #f97f7b;
+  }
+  80% {
+    background: #a0acff;
+  }
+  100% {
+    background: #70dae7;
+  }
+}
+
+/* line 1, src/sass/common/_initial.scss */
+body {
+  direction: rtl;
+  font-family: "Swissra Normal", san-serif;
+  font-size: 12px;
+}
+
+/* line 1, src/sass/components/_carousel.scss */
+.carousel {
+  min-height: 665px;
+}
+
+/* line 3, src/sass/components/_carousel.scss */
+.carousel .carousel-item {
+  z-index: -1 !important;
+}
+
+/* line 7, src/sass/components/_carousel.scss */
+.carousel .first_carousel {
+  background-image: url("../img/slider/01.png");
+}
+
+/* line 11, src/sass/components/_carousel.scss */
+.carousel .second_carousel {
+  background-image: url("../img/slider/02.png");
+}
+
+/* line 15, src/sass/components/_carousel.scss */
+.carousel .third_carousel {
+  background-image: url("../img/slider/03.png");
+}
+
+/* line 19, src/sass/components/_carousel.scss */
+.carousel .first_carousel,
+.carousel .second_carousel,
+.carousel .third_carousel {
+  background-size: cover;
+}
+
+/* line 23, src/sass/components/_carousel.scss */
+.carousel .first_carousel .overlight,
+.carousel .second_carousel .overlight,
+.carousel .third_carousel .overlight {
+  min-height: 665px;
+  background-color: rgba(2, 2, 2, 0.1);
+}
+
+/* line 26, src/sass/components/_carousel.scss */
+.carousel .first_carousel .overlight .main_square,
+.carousel .second_carousel .overlight .main_square,
+.carousel .third_carousel .overlight .main_square {
+  position: absolute;
+  bottom: 7%;
+  left: 7%;
+}
+
+/* line 30, src/sass/components/_carousel.scss */
+.carousel .first_carousel .overlight .main_square .square,
+.carousel .second_carousel .overlight .main_square .square,
+.carousel .third_carousel .overlight .main_square .square {
+  opacity: 0.8;
+  float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* line 36, src/sass/components/_carousel.scss */
+.carousel .first_carousel .overlight .main_square .square:before,
+.carousel .second_carousel .overlight .main_square .square:before,
+.carousel .third_carousel .overlight .main_square .square:before {
+  background-color: #f97f7b;
+  -webkit-animation-name: rotate_before;
+          animation-name: rotate_before;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+@-webkit-keyframes rotate_before {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-20deg);
+            transform: rotate(-20deg);
+  }
+}
+
+@keyframes rotate_before {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-20deg);
+            transform: rotate(-20deg);
+  }
+}
+
+/* line 54, src/sass/components/_carousel.scss */
+.carousel .indicators {
+  position: absolute;
+  right: 0px;
+  left: auto;
+}
+
+/* line 58, src/sass/components/_carousel.scss */
+.carousel .indicators .indicator-item.active {
+  background-color: #f97f7b;
+}
+
+/* line 61, src/sass/components/_carousel.scss */
+.carousel .indicators .indicator-item {
+  background-color: #fff;
+  width: 10px;
+  height: 10px;
+}
+
+/* line 1, src/sass/sections/_who.scss */
+.who_we_are {
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 4, src/sass/sections/_who.scss */
+.who_we_are .square {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  left: 0px;
+  bottom: 0px;
+  border-radius: 30px 100px 30px 100px;
+  opacity: 0.2;
+}
+
+/* line 13, src/sass/sections/_who.scss */
+.who_we_are .first_section {
+  padding-bottom: 8%;
+}
+
+/* line 1, src/sass/sections/_services.scss */
+.our_service {
+  overflow: hidden;
+  padding-top: 50px;
+  position: relative;
+  padding-bottom: 50px;
+  background-color: #e0dfdf;
+  background: url("../img/ourServices.png");
+}
+
+/* line 8, src/sass/sections/_services.scss */
+.our_service .h2 {
+  padding-bottom: 50px;
+}
+
+/* line 11, src/sass/sections/_services.scss */
+.our_service .squareL,
+.our_service .squareR {
+  opacity: 0.2;
+}
+
+/* line 15, src/sass/sections/_services.scss */
+.our_service .square {
+  width: 275px;
+  height: 275px;
+  border-radius: 60px 5px 60px 5px;
+  position: relative;
+  margin-right: 15%;
+  color: #fff;
+}
+
+/* line 22, src/sass/sections/_services.scss */
+.our_service .square .info {
+  top: 5.5%;
+  right: 12%;
+  position: absolute;
+}
+
+/* line 29, src/sass/sections/_services.scss */
+.our_service .first_service .square {
+  -webkit-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+
+/* line 31, src/sass/sections/_services.scss */
+.our_service .first_service .square .info {
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
+}
+
+/* line 33, src/sass/sections/_services.scss */
+.our_service .first_service .square .info img {
+  padding-right: 38%;
+}
+
+/* line 36, src/sass/sections/_services.scss */
+.our_service .first_service .square .info .know_more {
+  float: left;
+  padding-left: 10%;
+}
+
+/* line 44, src/sass/sections/_services.scss */
+.our_service .second_service .square {
+  -webkit-transform: rotate(20deg);
+          transform: rotate(20deg);
+  border-radius: 5px 60px 5px 60px;
+  -webkit-animation: roll-up 1s;
+          animation: roll-up 1s;
+}
+
+/* line 48, src/sass/sections/_services.scss */
+.our_service .second_service .square .info {
+  -webkit-transform: rotate(-20deg);
+          transform: rotate(-20deg);
+}
+
+/* line 50, src/sass/sections/_services.scss */
+.our_service .second_service .square .info img {
+  padding-right: 38%;
+}
+
+/* line 53, src/sass/sections/_services.scss */
+.our_service .second_service .square .info .know_more {
+  float: left;
+  padding-left: 10%;
+}
+
+/* line 61, src/sass/sections/_services.scss */
+.our_service .third_service .square {
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
+  border-radius: 5px 60px 5px 60px;
+}
+
+/* line 64, src/sass/sections/_services.scss */
+.our_service .third_service .square .info {
+  -webkit-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+
+/* line 66, src/sass/sections/_services.scss */
+.our_service .third_service .square .info img {
+  padding-right: 38%;
+}
+
+/* line 69, src/sass/sections/_services.scss */
+.our_service .third_service .square .info .know_more {
+  text-align: left;
+  padding-left: 10%;
+}
+
+/* line 76, src/sass/sections/_services.scss */
+.our_service .know_more_bottom_paragraph {
+  padding-left: 3%;
+  margin-top: 8%;
+}
+
+/* line 79, src/sass/sections/_services.scss */
+.our_service .know_more_bottom_paragraph a {
+  color: #f97f7b;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+/* line 83, src/sass/sections/_services.scss */
+.our_service .know_more_bottom_paragraph:hover a {
+  background-color: #f97f7b;
+  padding: 8px;
+  border-radius: 8px;
+  color: #fff;
+}
+
+@media (max-width: 500px) {
+  /* line 92, src/sass/sections/_services.scss */
+  .our_service .first_service,
+  .our_service .second_service,
+  .our_service .third_service {
+    margin-right: 15%;
+    margin-bottom: 15%;
+  }
+  /* line 98, src/sass/sections/_services.scss */
+  .our_service .know_more {
+    padding-left: 27%;
+  }
+}
+
+@media (max-width: 900px) {
+  /* line 105, src/sass/sections/_services.scss */
+  .our_service .square {
+    width: 220px;
+    height: 240px;
+    margin-right: 0px;
+  }
+}
+
+@-webkit-keyframes roll-up {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 2000px, 0);
+            transform: translate3d(0, 2000px, 0);
+  }
+  90% {
+    opacity: 1;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(20deg);
+            transform: rotate(20deg);
+  }
+}
+
+@keyframes roll-up {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 2000px, 0);
+            transform: translate3d(0, 2000px, 0);
+  }
+  90% {
+    opacity: 1;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(20deg);
+            transform: rotate(20deg);
+  }
+}
+
+/* line 1, src/sass/sections/_booking.scss */
+.booking {
+  background-image: url("../img/booking.png");
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  min-height: 400px;
+}
+
+/* line 7, src/sass/sections/_booking.scss */
+.booking .overlight {
+  height: 100%;
+}
+
+/* line 9, src/sass/sections/_booking.scss */
+.booking .overlight .button {
+  margin-top: 30%;
+}
+
+/* line 11, src/sass/sections/_booking.scss */
+.booking .overlight .button button {
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+/* line 17, src/sass/sections/_booking.scss */
+.booking .overlight .square {
+  margin-top: 50px;
+  width: 400px;
+  position: relative;
+  height: 400px;
+  border-radius: 100px 30px 100px 30px;
+  background-color: rgba(137, 130, 225, 0.7) !important;
+  -webkit-animation: roll-In 1s;
+          animation: roll-In 1s;
+}
+
+/* line 25, src/sass/sections/_booking.scss */
+.booking .overlight .square .info {
+  -webkit-transform: rotate(-20deg);
+          transform: rotate(-20deg);
+  color: #fff;
+  position: absolute;
+  top: 18%;
+  padding-right: 15%;
+}
+
+@-webkit-keyframes roll-In {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+            transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: rotate(20deg);
+            transform: rotate(20deg);
+  }
+}
+
+@keyframes roll-In {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+            transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: rotate(20deg);
+            transform: rotate(20deg);
+  }
+}
+
+@media (max-width: 600px) {
+  /* line 49, src/sass/sections/_booking.scss */
+  .booking .overlight {
+    height: 400px;
+    background-color: rgba(2, 2, 2, 0.5);
+  }
+  /* line 52, src/sass/sections/_booking.scss */
+  .booking .overlight h3 {
+    margin: 0px;
+  }
+  /* line 55, src/sass/sections/_booking.scss */
+  .booking .overlight .booking_on_mobile {
+    padding-top: 7vw;
+  }
+}
+
+/* line 1, src/sass/sections/_info.scss */
+.more_information {
+  overflow: hidden;
+}
+
+/* line 3, src/sass/sections/_info.scss */
+.more_information .row {
+  margin-bottom: 0px;
+}
+
+/* line 6, src/sass/sections/_info.scss */
+.more_information h2 {
+  padding-bottom: 30px;
+}
+
+/* line 9, src/sass/sections/_info.scss */
+.more_information .first_img,
+.more_information .second_img {
+  background-size: cover;
+  min-height: 450px;
+}
+
+/* line 14, src/sass/sections/_info.scss */
+.more_information .first_img {
+  background-image: url("../img/home/01.png");
+}
+
+/* line 17, src/sass/sections/_info.scss */
+.more_information .second_img {
+  background-image: url("../img/home/02.png");
+}
+
+/* line 20, src/sass/sections/_info.scss */
+.more_information .info {
+  padding-right: 10%;
+  padding-top: 13%;
+}
+
+/* line 23, src/sass/sections/_info.scss */
+.more_information .info .paragraph_in_first_row {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2em;
+  max-width: 450px;
+}
+
+/* line 30, src/sass/sections/_info.scss */
+.more_information button {
+  margin: 20px auto;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-right: 30%;
+}
+
+/* line 37, src/sass/sections/_info.scss */
+.more_information .first_div,
+.more_information .second_div {
+  padding-right: 7vw;
+}
+
+/* line 41, src/sass/sections/_info.scss */
+.more_information .second_div {
+  padding: 40px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2em;
+}
+
+/* line 1, src/sass/sections/_partner.scss */
+.our_partner {
+  height: 550px;
+}
+
+/* line 3, src/sass/sections/_partner.scss */
+.our_partner .carousel {
+  -webkit-perspective: 398px;
+          perspective: 398px;
+  min-height: 100px;
+}
+
+/* line 6, src/sass/sections/_partner.scss */
+.our_partner .carousel img {
+  width: 150px;
+  background-position: center;
+}
+
+/* line 1, src/sass/sections/_types.scss */
+.type_of_service {
+  background-image: url("../img/kind_of_services.png");
+  min-height: 600px;
+  overflow: hidden;
+  background-size: cover;
+}
+
+/* line 6, src/sass/sections/_types.scss */
+.type_of_service .overlight {
+  background-color: rgba(29, 91, 87, 0.5);
+  padding-top: 30px;
+  padding-bottom: 10px;
+  color: #fff;
+}
+
+/* line 11, src/sass/sections/_types.scss */
+.type_of_service .overlight .h2 {
+  padding-bottom: 50px;
+}
+
+/* line 14, src/sass/sections/_types.scss */
+.type_of_service .overlight .info {
+  padding-right: 9vw;
+  padding-bottom: 3vw;
+  color: #fff;
+  position: relative;
+}
+
+/* line 19, src/sass/sections/_types.scss */
+.type_of_service .overlight .info .left_info {
+  padding-right: 4vw;
+}
+
+/* line 22, src/sass/sections/_types.scss */
+.type_of_service .overlight .info img {
+  position: absolute;
+}
+
+@media (max-width: 768px) {
+  /* line 30, src/sass/sections/_types.scss */
+  .type_of_service .overlight .info .left_info {
+    padding-right: 20vw;
+  }
+}
+
+@media (max-width: 600px) {
+  /* line 37, src/sass/sections/_types.scss */
+  .type_of_service .overlight .info .left_info {
+    padding-right: 18vw;
+  }
+}
+
+/* line 1, src/sass/sections/_slider.scss */
+.slider_section {
+  height: 450px;
+}
+
+/* line 3, src/sass/sections/_slider.scss */
+.slider_section .swiper-button-prev, .slider_section .swiper-container-rtl .swiper-button-next {
+  background-image: none;
+}
+
+/* line 6, src/sass/sections/_slider.scss */
+.slider_section html, .slider_section body {
+  position: relative;
+  height: 100%;
+}
+
+/* line 10, src/sass/sections/_slider.scss */
+.slider_section body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 18, src/sass/sections/_slider.scss */
+.slider_section .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 22, src/sass/sections/_slider.scss */
+.slider_section .swiper-slide {
+  font-size: 18px;
+  background: #ffffff;
+  width: 50% !important;
+  background-size: cover;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+/* line 42, src/sass/sections/_slider.scss */
+.slider_section .swiper-slide > img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 47, src/sass/sections/_slider.scss */
+.slider_section .swiper-slide .overlay {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 53, src/sass/sections/_slider.scss */
+.slider_section .swiper-slide .overlay .normal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+/* line 73, src/sass/sections/_slider.scss */
+.slider_section .swiper-slide .overlay .hover {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  -webkit-transform: translateY(450px);
+          transform: translateY(450px);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+/* line 80, src/sass/sections/_slider.scss */
+.slider_section .swiper-slide .overlay .hover * {
+  background: transparent;
+  border: none;
+}
+
+/* line 85, src/sass/sections/_slider.scss */
+.slider_section .swiper-slide .overlay .hover .collection-item.avatar {
+  padding-right: 72px;
+  color: white;
+}
+
+/* line 89, src/sass/sections/_slider.scss */
+.slider_section .swiper-slide .overlay .hover .circle {
+  right: 15px;
+}
+
+/* line 94, src/sass/sections/_slider.scss */
+.slider_section .swiper-slide .overlay:hover .normal {
+  opacity: 0;
+  -webkit-transform: translateY(-450px);
+          transform: translateY(-450px);
+}
+
+/* line 99, src/sass/sections/_slider.scss */
+.slider_section .swiper-slide .overlay:hover .hover {
+  opacity: 1;
+  -webkit-transform: translateY(-450px);
+          transform: translateY(-450px);
+}
+
+@media (max-width: 768px) {
+  /* line 107, src/sass/sections/_slider.scss */
+  .slider_section .swiper-slide {
+    width: 100% !important;
+  }
+}
